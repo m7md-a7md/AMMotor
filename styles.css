@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url(/img/login\ back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  background-color: rgb(240, 248, 255);
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+h3{
+  font-family: "Poetsen One", sans-serif;
+}
+.logo{
+  text-decoration: none;
+  color:#3b4753;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+}
+.navigation a{
+  color: #000000;
+  font-size: 1.2em; 
+  font-weight: 500;
+  padding-left: 30px;
+  transition: 2s;
+}
+.navigation a:hover{
+  color: rgb(255, 0, 0);
+}
+
+.dropdown-content {
+  display: none;
+  padding: 10px;
+  position: absolute;
+  background-color: #ffffff6b;
+  border-radius: 9Px;
+  font-family: "Poetsen One", sans-serif;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn {
+  border : none ;
+  font-size: 1.5em;
+  font-family: "Poetsen One", sans-serif;
+  background-color: #03030300;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head{
+  padding: 20px;
+  font-size: 30px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 320px;
+  height:auto ;
+  padding: 25px;
+  background-color: #ffffff00;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.form h2{
+color: aliceblue;
+}
+label{
+  color: #efefef;
+  font-weight: 500;
+  font-size: 15px;
+}
+form h5{
+  color: aliceblue;
+  display: flex;
+  justify-content: left;
+  font-weight: 600;
+  margin-bottom: 0%;  
+}
+
+.form input {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: #ffffff00;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  border:  none;
+  border-bottom: solid 1px;
+  border-radius: 10px;
+}
+
+.button1 {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 800;
+  border:  none;
+} 
+a{
+  text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.toggle {
+  margin-top: 20px;
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+.button2{
+  width: 50%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: #8f8f8f;
+  color: #000000;
+}

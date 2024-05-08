@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(240, 248, 255);
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+
+}
+h3{
+    font-family: "Poetsen One", sans-serif;
+}
+.logo{
+    text-decoration: none;
+    color:#3b4753;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+  }
+.navigation a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em; 
+    font-weight: 500;
+    padding-left: 30px;
+    transition: 2s;
+}
+.navigation a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff6b;
+    border-radius: 9Px;
+    font-family: "Poetsen One", sans-serif;
+
+}
+ a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "Poetsen One", sans-serif;
+}
+.dropbtn {
+    border : none;
+    font-size: 1.5em;
+    font-family: "Poetsen One", sans-serif;
+    background-color: #03030300;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-image: url(/img/home\ back.png ) ;
+    align-items: center;
+    background-size:cover ;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
+.main-products{
+    color: black;
+    background-color: rgba(96, 96, 96, 0);
+    text-decoration: none ;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: .2em .6em;
+    letter-spacing: 1px ;
+    border-radius: 15px ;
+    margin-bottom: 60px;
+    transition: 0.7s ease;
+
+}
+.main-products:hover{
+    background-color: rgba(205, 204, 204, 0.373);
+    transform: scale(1.1);
+}
+.main h2 {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.main h3{
+    color: rgb(255, 240, 240);
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.Models{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 70px;
+    font-family: "Poetsen One", sans-serif;
+}
+.AM{
+    color: #4e4e4e;
+    display: inline-block;
+    font-size: 8em;
+    font-weight: 800;
+    
+}
+.Motor{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 4em;
+    font-weight: 600;
+}
+
+.title{
+   color: hwb(0 0% 100%);
+   font-size: 2.2em;
+   font-family: "Playfair Display", serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   font-weight: 700;
+
+
+}
+.cars{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.car1{
+    background-color: rgb(255, 255, 255);
+    width: 30em;
+    overflow: hidden;
+    min-height: 14em;
+    border: 1px  rgb(8, 8, 8);
+    border-radius: 1px;
+    padding: 2px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+.products{
+    background-color: rgb(255, 255, 255); 
+}
+.car1:hover{
+    transform: scale(1.1);
+
+}
+.img img{
+    width: 100%; 
+}
+.img-2 img{
+    width: 20%;
+    
+}
+.img-2 {
+    display:flex;
+    justify-content: space-between;
+}
+
+.info{
+    padding: 10Px;
+    display: flex;
+    justify-content: space-between;
+}
+.type-car{
+    display: flex;
+    justify-content :space-between;
+    padding: 10Px;
+}
+.type-car h5{
+    color: red;
+}
+.more-details{
+    text-decoration: none;
+    color: #030303;
+    font-weight: 700;
+    transition: 2s;
+}
+.more-details:hover{
+    color: rgb(17, 24, 232);
+    
+
+}
+.type {
+    color: #3e3e3e;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.type1 {
+    color: #bd0c0c;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.info samp{
+    color: red;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    
+}
+.details{
+    padding: 10Px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.info h3 {
+    margin: 6px;
+}
+tr {
+    border-bottom: 1px solid #cccbcb;
+  }
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+th{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+
+  }
+td{
+    text-align: left;
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    height: auto;
+    
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    height: auto;
+    
+
+}
+.AM-footer{
+    color: #f8f8f8;
+    display: flex;
+    text-align:center;
+    
+}
+footer a{
+    
+    justify-content:center ;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    
+    
+}
+footer h3{
+    font-size: 2.5em;
+    padding: 50px ;
+    padding-left:200px ;
+    
+}
+footer p{
+    padding-top: 150px;
+    text-align: center ;
+
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 5px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main h2{
+        font-size: 1em;
+    }
+
+    .main h3{
+        font-size: 1.6em;
+    }
+}
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
